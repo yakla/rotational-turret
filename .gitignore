@@ -1,0 +1,6 @@
+# Build artifacts
+.pio/
+.pioenvs/
+
+# Secrets – never commit real credentials
+firmware/src/secrets.h
