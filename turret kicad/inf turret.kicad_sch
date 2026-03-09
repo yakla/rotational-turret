@@ -1932,6 +1932,12 @@
 		(color 0 0 0 0)
 		(uuid "3234dd76-6813-4c8a-8ea0-bad78685afd4")
 	)
+	(junction
+		(at 246.38 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a28dbf60-19d2-4e26-baa0-118c989bf96f")
+	)
 	(wire
 		(pts
 			(xy 215.9 38.1) (xy 218.44 38.1)
@@ -1944,7 +1950,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 35.56) (xy 245.11 38.1)
+			(xy 259.08 35.56) (xy 259.08 38.1)
 		)
 		(stroke
 			(width 0)
@@ -1984,7 +1990,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 38.1) (xy 245.11 38.1)
+			(xy 238.76 38.1) (xy 246.38 38.1)
 		)
 		(stroke
 			(width 0)
@@ -2001,6 +2007,16 @@
 			(type default)
 		)
 		(uuid "9ac736d9-3610-43b2-82f3-946b6b893a15")
+	)
+	(wire
+		(pts
+			(xy 246.38 38.1) (xy 259.08 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9dec529f-334a-4caf-8544-36085877854b")
 	)
 	(wire
 		(pts
@@ -2968,6 +2984,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 246.38 30.48 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "abaa6265-9ecc-4d0a-9d4f-11fc603e3699")
+		(property "Reference" "#PWR09"
+			(at 246.38 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 246.38 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 246.38 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 246.38 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a55bf307-97c0-44ac-bf92-87b43ac0641c")
+		)
+		(instances
+			(project "inf turret"
+				(path "/c2234474-1ef0-49db-bc4a-00d54e6bbb25"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
 		(at 109.22 74.93 0)
 		(unit 1)
@@ -3034,6 +3116,76 @@
 			(project ""
 				(path "/c2234474-1ef0-49db-bc4a-00d54e6bbb25"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 246.38 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c2678d86-8db1-4ca8-8433-2784303b3df0")
+		(property "Reference" "C1"
+			(at 250.19 33.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1µF"
+			(at 250.19 35.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 247.3452 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 246.38 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 246.38 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6b465e36-a098-4c09-9624-1e5c5ad5a73d")
+		)
+		(pin "2"
+			(uuid "51d6fb61-3e80-4c81-9dd1-12ebab6f9a56")
+		)
+		(instances
+			(project ""
+				(path "/c2234474-1ef0-49db-bc4a-00d54e6bbb25"
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -3202,7 +3354,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 239.7252 38.1 0)
 			(effects
 				(font
@@ -3313,7 +3465,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 245.11 35.56 0)
+		(at 259.08 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3322,7 +3474,7 @@
 		(fields_autoplaced yes)
 		(uuid "fe541573-1584-49d6-9a00-7d4b1111aec7")
 		(property "Reference" "#PWR03"
-			(at 245.11 39.37 0)
+			(at 259.08 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3331,7 +3483,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 245.11 30.48 0)
+			(at 259.08 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3339,7 +3491,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 245.11 35.56 0)
+			(at 259.08 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3348,7 +3500,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 245.11 35.56 0)
+			(at 259.08 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3357,7 +3509,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 245.11 35.56 0)
+			(at 259.08 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
