@@ -5,7 +5,7 @@
 	(uuid "c2234474-1ef0-49db-bc4a-00d54e6bbb25")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:Conn_01x03_Pin"
+		(symbol "Connector:Conn_01x04_Pin"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -21,8 +21,8 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x03_Pin"
-				(at 0 -5.08 0)
+			(property "Value" "Conn_01x04_Pin"
+				(at 0 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -47,7 +47,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x03, script generated"
+			(property "Description" "Generic connector, single row, 01x04, script generated"
 				(at 0 0 0)
 				(effects
 					(font
@@ -82,7 +82,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x03_Pin_1_1"
+			(symbol "Conn_01x04_Pin_1_1"
 				(rectangle
 					(start 0.8636 2.667)
 					(end 0 2.413)
@@ -108,6 +108,17 @@
 				(rectangle
 					(start 0.8636 -2.413)
 					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -4.953)
+					(end 0 -5.207)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -143,6 +154,18 @@
 				(polyline
 					(pts
 						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -5.08) (xy 0.8636 -5.08)
 					)
 					(stroke
 						(width 0.1524)
@@ -199,6 +222,24 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -5.08 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2160,9 +2201,31 @@
 			)
 		)
 	)
+	(global_label "PWM SERVO"
+		(shape input)
+		(at 115.57 77.47 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "605e49f0-46e2-4d56-aa23-3c8ba12767ad")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 129.7432 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "PWM MOTOR"
 		(shape input)
-		(at 114.3 77.47 0)
+		(at 115.57 74.93 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2172,12 +2235,34 @@
 		)
 		(uuid "734f99f5-a3ca-4609-a3fa-570af9bcbb0b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 128.7756 77.47 0)
+			(at 130.0456 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PWM SERVO"
+		(shape input)
+		(at 142.24 36.83 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "74d4f3d4-5880-488f-8d8d-3880691e4011")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 128.0668 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -2984,6 +3069,80 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x04_Pin")
+		(at 110.49 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9d611a95-9c33-4d1b-9660-578c4c7fccbf")
+		(property "Reference" "J2"
+			(at 111.125 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x04_Pin"
+			(at 111.125 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+			(at 110.49 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 110.49 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "ce5a4315-825f-41f4-957f-6b31e086b8b1")
+		)
+		(pin "2"
+			(uuid "b73e3d08-5c01-46ca-9f8a-7b2abfcc5593")
+		)
+		(pin "1"
+			(uuid "f1aa4dae-6055-4673-8044-5720c8bde47f")
+		)
+		(pin "3"
+			(uuid "3201ddf9-56f8-49b6-8810-06d8b75099bb")
+		)
+		(instances
+			(project ""
+				(path "/c2234474-1ef0-49db-bc4a-00d54e6bbb25"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 246.38 30.48 0)
 		(mirror x)
@@ -3044,78 +3203,6 @@
 			(project "inf turret"
 				(path "/c2234474-1ef0-49db-bc4a-00d54e6bbb25"
 					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x03_Pin")
-		(at 109.22 74.93 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b10c46fa-4902-486a-835b-176b685e4114")
-		(property "Reference" "J3"
-			(at 109.855 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "Conn_01x03_Pin"
-			(at 109.855 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
-			(at 109.22 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 109.22 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 109.22 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "cbc356f6-0a01-44c8-824b-5ae0c8a12506")
-		)
-		(pin "1"
-			(uuid "c5d2988b-18ff-4165-b0cd-bd3ec29ce584")
-		)
-		(pin "2"
-			(uuid "228eb993-85a8-4ed1-9db8-098576edfb2b")
-		)
-		(instances
-			(project ""
-				(path "/c2234474-1ef0-49db-bc4a-00d54e6bbb25"
-					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -3259,16 +3346,15 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 114.3 74.93 270)
+		(at 115.57 72.39 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "cb8c90ca-fb63-473b-a650-3286b799e3dc")
 		(property "Reference" "#PWR07"
-			(at 110.49 74.93 0)
+			(at 111.76 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3277,7 +3363,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 118.11 74.9299 90)
+			(at 119.38 72.3899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3286,7 +3372,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 114.3 74.93 0)
+			(at 115.57 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3295,7 +3381,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 74.93 0)
+			(at 115.57 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3304,7 +3390,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 114.3 74.93 0)
+			(at 115.57 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3398,16 +3484,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 114.3 72.39 90)
+		(at 115.57 69.85 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ea53d9bb-876c-4757-ae6f-a9bfa9b63675")
 		(property "Reference" "#PWR04"
-			(at 120.65 72.39 0)
+			(at 121.92 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3416,7 +3501,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 118.11 72.3899 90)
+			(at 119.38 69.8499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3425,7 +3510,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 114.3 72.39 0)
+			(at 115.57 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3434,7 +3519,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 72.39 0)
+			(at 115.57 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3443,7 +3528,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 114.3 72.39 0)
+			(at 115.57 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
