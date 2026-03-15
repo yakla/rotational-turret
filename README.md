@@ -32,7 +32,7 @@ For the Hardware i used:
 
 ## Project Status & Roadmap
 - [ ] Mobile App for Remote control and setting Wifi detection and simple viewing window (Planned)
-- [v] Design the project with a cheaper servo (Planned) 
+- [ ] Design the project with a cheaper servo (Planned) 
 
 ## How to use
 * **Build:** Use PlatformIO to flash the Firmware/ folder to the XIAO.
