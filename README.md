@@ -20,8 +20,7 @@ the turret has 3 main modes.
 ## Design & Hardware
 For the head i designed a costume pcb to fit the tof sensor the esp camera and the leds.
 For a encloseure i use a thin sheet of invisable plastic that rotates with the turret. that make it realy cool in my opinion.
-
-[CAD](https://cad.onshape.com/documents/5493d3bfb7c584824d124c44/w/b9fe300d7cd71857bff2772f/e/d3c804d532ca15a2a7af37b9?renderMode=0&uiState=69b6b6c78c596208d828381b)
+CAD Link : https://cad.onshape.com/documents/5493d3bfb7c584824d124c44/w/b9fe300d7cd71857bff2772f/e/d3c804d532ca15a2a7af37b9?renderMode=0&uiState=69b6b6c78c596208d828381b
 
 For the Hardware i used:
 * XIAO ESP32-S3 - Main Controller & Vision Processing
