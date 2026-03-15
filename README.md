@@ -61,3 +61,6 @@ For the Hardware i used:
 | resestor 47R 0805                  | for the neopixel din                                          | 1 (100 in one order) | $1.11          | $1.11           | [Link](https://he.aliexpress.com/item/32382494431.html) |
 | Solder Paste Sn63 XG-Z40           | for sodering to the pcb                                       | 1                    | $4.88          | $4.88           | [Link](https://he.aliexpress.com/item/32958428538.html) |
 | **Sum** |                                                               |                      | **$95.97** | **$110.24** | |
+
+## CAD link
+[CAD](https://cad.onshape.com/documents/5493d3bfb7c584824d124c44/w/b9fe300d7cd71857bff2772f/e/d3c804d532ca15a2a7af37b9?renderMode=0&uiState=69b6b65f8c596208d8283648)
