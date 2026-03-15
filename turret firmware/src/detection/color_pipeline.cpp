@@ -6,8 +6,6 @@
 #include "hsv_utils.h"
 #include "shared/app_state.h"
 
-HsvPixel dog_min_hsv(50 / 3, 20, 20);
-HsvPixel dog_max_hsv(40 / 3, 127, 127);
 
 constexpr uint16_t red565 = 0xF800;
 
@@ -34,7 +32,7 @@ void colorPipeLineDetection(camera_fb_t *fb) {
     for (size_t i = 0; i + 1 < bufferSize; i += 2) {
         const uint16_t pixel = (static_cast<uint16_t>(buf[i]) << 8) | buf[i + 1];
         const HsvPixel hsv = rgb565ToHsv(pixel);
-        if (hsvMatchesRange(hsv, dog_min_hsv, dog_max_hsv)) {
+        if (hsvMatchesRange(hsv, constants::dog_min_hsv, constants::dog_max_hsv)) {
             sumDetectedPixelsX += (i / 2) % fb->width;
             sumDetectedPixelsY += (i / 2) / fb->width;
             counterDetectedPixels++;

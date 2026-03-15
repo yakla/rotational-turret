@@ -13,3 +13,4 @@ plot/
 *.stp
 # The 3D viewer cache
 3d-viewer-cache/
+turret firmware/src/secret.h

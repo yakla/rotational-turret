@@ -1,8 +1,12 @@
 #ifndef INF_TURRET_CONSTANTS_H
 #define INF_TURRET_CONSTANTS_H
 #include "FastLED.h"
+#include "detection/hsv_utils.h"
 
 namespace constants {
+    HsvPixel dog_min_hsv(50 / 3, 20, 20);
+    HsvPixel dog_max_hsv(40 / 3, 127, 127); // my example change it as you wish
+
     enum Pins {
         MOTOR = 3,
         SERVO = 2,
@@ -19,8 +23,6 @@ namespace constants {
 
     extern const CRGBPalette16 purplePalette;
     extern const CHSVPalette16 bluePalette;
-
-
 }
 
 #endif //INF_TURRET_CONSTANTS_H
