@@ -1,0 +1,30 @@
+### Footprint positions - created on 2026-03-12T18:15:39+0200 ###
+### Printed by KiCad version 9.0.7-1.fc43
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val             Package                                           PosX       PosY       Rot  Side
+                                                                        157.9313  -117.1113    0.0000  top
+                                                                        137.5887  -117.0887    0.0000  top
+                                                                        133.8000   -93.5840    0.0000  top
+                                                                        137.6000  -104.3840    0.0000  top
+                                                                        157.9087  -104.3887    0.0000  top
+                                                                        161.0000   -91.8000    0.0000  top
+C1        0.1µF           C_0805_2012Metric_Pad1.18x1.45mm_HandSolder   133.8000   -98.0000  180.0000  top
+C2        10µF            C_1206_3216Metric_Pad1.33x1.80mm_HandSolder   133.4000  -101.4000  180.0000  top
+D2        SK6805          LED_SK6805_PLCC4_2.4x2.7mm_P1.3mm             161.6667   -87.2525   45.0000  top
+D2        SK6805          LED_SK6805_PLCC4_2.4x2.7mm_P1.3mm             151.5000   -81.0000    0.0000  top
+D2        SK6805          LED_SK6805_PLCC4_2.4x2.7mm_P1.3mm             165.8249  -106.5168  -22.5000  top
+D2        SK6805          LED_SK6805_PLCC4_2.4x2.7mm_P1.3mm             144.0000   -81.0000    0.0000  top
+D2        SK6805          LED_SK6805_PLCC4_2.4x2.7mm_P1.3mm             165.1751   -93.0168   22.5000  top
+D2        SK6805          LED_SK6805_PLCC4_2.4x2.7mm_P1.3mm             163.0000  -111.5000  -45.0000  top
+D2        SK6805          LED_SK6805_PLCC4_2.4x2.7mm_P1.3mm             132.1667  -111.2525   45.0000  top
+D2        SK6805          LED_SK6805_PLCC4_2.4x2.7mm_P1.3mm             167.0000   -99.8500    0.0000  top
+D2        SK6805          LED_SK6805_PLCC4_2.4x2.7mm_P1.3mm             128.0000   -99.8500    0.0000  top
+D2        SK6805          LED_SK6805_PLCC4_2.4x2.7mm_P1.3mm             129.8249   -92.0168  -22.5000  top
+D2        SK6805          LED_SK6805_PLCC4_2.4x2.7mm_P1.3mm             133.7525   -86.3333  -45.0000  top
+D2        SK6805          LED_SK6805_PLCC4_2.4x2.7mm_P1.3mm             129.1751  -106.5168   22.5000  top
+J1        Conn_01x06_Pin  PinHeader_1x06_P2.54mm_Vertical               154.0400  -104.3490  -90.0000  top
+J2        Conn_01x04_Pin  PinHeader_1x04_P2.54mm_Vertical               143.7200  -119.4000   90.0000  top
+R5        470             R_0805_2012Metric_Pad1.20x1.40mm_HandSolder   162.6750  -100.0000  180.0000  top
+U1        XIAO-ESP32S3    xiao-esp32s3                                  148.6000   -91.4250   90.0000  top
+## End

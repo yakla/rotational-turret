@@ -1,0 +1,12 @@
+# Credentials
+src/secret.h
+
+# PlatformIO
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# Python
+tools/__pycache__/
+*.pyc
+

@@ -1,0 +1,15 @@
+# KiCad temporary and backup files
+*.bak
+*-bak
+*.tmp
+# Auto-saved files
+*~
+# Lock files
+*.kicad_lock
+# Output folders (don't commit generated Gerbers/STEP files)
+gerber/
+plot/
+*.step
+*.stp
+# The 3D viewer cache
+3d-viewer-cache/

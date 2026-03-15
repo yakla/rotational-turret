@@ -1,0 +1,9 @@
+"Id";"Designator";"Footprint";"Quantity";"Designation";"Supplier and ref";
+1;"D2,D2,D2,D2,D2,D2,D2,D2,D2,D2,D2,D2";"LED_SK6805_PLCC4_2.4x2.7mm_P1.3mm";12;"SK6805";;;
+2;"J2";"PinHeader_1x04_P2.54mm_Vertical";1;"Conn_01x04_Pin";;;
+3;",,,,,";"";6;"";;;
+4;"R5";"R_0805_2012Metric";1;"470";;;
+5;"C2";"C_1206_3216Metric";1;"10µF";;;
+6;"J1";"PinHeader_1x06_P2.54mm_Vertical";1;"Conn_01x06_Pin";;;
+7;"U1";"xiao-esp32s3";1;"XIAO-ESP32S3";;;
+8;"C1";"C_0805_2012Metric";1;"0.1µF";;;

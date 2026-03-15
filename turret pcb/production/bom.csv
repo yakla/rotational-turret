@@ -1,0 +1,9 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+"_6, _5, _4, _3, _2, ",,6,,
+C1,0805,1,0.1µF,
+C2,1206,1,10µF,
+"D2_12, D2_11, D2_10, D2_9, D2_8, D2_7, D2_6, D2_5, D2_4, D2_3, D2_2, D2",LED_SK6805_PLCC4_2.4x2.7mm_P1.3mm,12,SK6805,
+J1,PinHeader_1x06_P2.54mm_Vertical,1,Conn_01x06_Pin,
+J2,PinHeader_1x04_P2.54mm_Vertical,1,Conn_01x04_Pin,
+R5,0805,1,470,
+U1,xiao-esp32s3,1,XIAO-ESP32S3,
