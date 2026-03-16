@@ -1,6 +1,6 @@
 # infinit Rotational Smart Tracking Camera
 
-first i started the project as a idea for a consept for a rotating turret that can go forever without needing to retract. i wanted to make it a concept so i made the build realy small but after i designed the base and then decited to go all out and make a follower cammera. in the end it ended up super small in just 10cm*10cm*9cm. for me its just a fun project to do in the meantime of the war currently. 
+first i started the project as a idea for a consept for a rotating turret that can go forever without needing to retract. i wanted to make it a concept so i made the build realy small but after i designed the base and then decited to go all out and make a follower cammera. in the end it ended up super small in just 10cm×10cm×9cm. for me its just a fun project to do in the meantime of the war currently. 
 
 ## Mechanics & Power
 The project uses a high speed brushless motor to rotate the base gear and a very small servo to rotate the head.
