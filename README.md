@@ -65,4 +65,5 @@ For the Hardware i used:
 | resestor 47R 0805                  | for the neopixel din                                          | 1 (100 in one order) | $1.11          | $1.11           | [Link](https://he.aliexpress.com/item/32382494431.html) |
 | Solder Paste Sn63 XG-Z40           | for sodering to the pcb                                       | 1                    | $4.88          | $4.88           | [Link](https://he.aliexpress.com/item/32958428538.html) |
 |o-ring thickring 2mm 26mm od        |for the conveyor of the head spin                              |1(100 in one order)   |1.99$           |$1.99            |[Link](https://he.aliexpress.com/item/1005006851111300.html) |
+|PCB                              	 |the PCB	             |1 (5 for one order)	                 |$2.00	                |$7.29|
 | **Sum** |                                                               |                      | **$97.96** | **$112.23** | |
