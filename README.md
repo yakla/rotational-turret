@@ -33,6 +33,8 @@ For the Hardware i used:
 *  - Distance detection (ToF)
    - Camera OV2640
    - SK6805 NeoPixel
+<img width="2000" height="1432" alt="image" src="https://github.com/user-attachments/assets/4082ebb7-f81b-4d76-985a-376f5406363f" />
+
 
 ## Project Status & Roadmap
 - [ ] Mobile App for Remote control and setting Wifi detection and simple viewing window (Planned)
