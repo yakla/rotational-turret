@@ -64,6 +64,5 @@ For the Hardware i used:
 | capcacitor 10uf 1206               | just there for the neopixel                                   | 1 (20 in one order)  | $1.35          | $1.35           | [Link](https://he.aliexpress.com/item/1005007363840397.html) |
 | resestor 47R 0805                  | for the neopixel din                                          | 1 (100 in one order) | $1.11          | $1.11           | [Link](https://he.aliexpress.com/item/32382494431.html) |
 | Solder Paste Sn63 XG-Z40           | for sodering to the pcb                                       | 1                    | $4.88          | $4.88           | [Link](https://he.aliexpress.com/item/32958428538.html) |
-|o-ring thickring 2mm 26mm od        |for the conveyor of the head spin                              |1(100 in one order)   |1.99$           |$1.99            |
-[Link](https://he.aliexpress.com/item/1005006851111300.html) |
-| **Sum** |                                                               |                      | **$95.97** | **$110.24** | |
+|o-ring thickring 2mm 26mm od        |for the conveyor of the head spin                              |1(100 in one order)   |1.99$           |$1.99            |[Link](https://he.aliexpress.com/item/1005006851111300.html) |
+| **Sum** |                                                               |                      | **$97.96** | **$112.23** | |
