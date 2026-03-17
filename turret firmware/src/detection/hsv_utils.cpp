@@ -23,11 +23,11 @@ HsvPixel rgb565ToHsv(const uint16_t pixel) {
     if (delta != 0) {
         int16_t hue = 0;
         if (cmax == r) {
-            hue = static_cast<int8_t>((60L * (static_cast<int16_t>(g) - static_cast<int16_t>(b))) / delta);
+            hue = static_cast<int8_t>(60 * (static_cast<int16_t>(g) - static_cast<int16_t>(b) / delta));
         } else if (cmax == g) {
-            hue = static_cast<int8_t>(120 + (60L * (static_cast<int16_t>(b) - static_cast<int16_t>(r))) / delta);
+            hue = static_cast<int8_t>(120 + 60 * (static_cast<int16_t>(b) - static_cast<int16_t>(r)) / delta);
         } else {
-            hue = static_cast<int8_t>(240 + (60L * (static_cast<int16_t>(r) - static_cast<int16_t>(g))) / delta);
+            hue = static_cast<int8_t>(240 + 60 * (static_cast<int16_t>(r) - static_cast<int16_t>(g)) / delta);
         }
 
         if (hue < 0) hue += 360;

@@ -4,8 +4,8 @@
 #include "detection/hsv_utils.h"
 
 namespace constants {
-    HsvPixel dog_min_hsv(50 / 3, 20, 20);
-    HsvPixel dog_max_hsv(40 / 3, 127, 127); // my example change it as you wish
+    extern HsvPixel dog_min_hsv;
+    extern HsvPixel dog_max_hsv; // example values are defined in constants.cpp
 
     enum Pins {
         MOTOR = 3,
