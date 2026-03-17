@@ -63,7 +63,10 @@ For the Hardware i used:
 | capcacitor 100nf 0805              | just there for the neopixel                                   | 1 (100 in one order) | $1.24          | $1.24           | [Link](https://he.aliexpress.com/item/1005005293453925.html) |
 | capcacitor 10uf 1206               | just there for the neopixel                                   | 1 (20 in one order)  | $1.35          | $1.35           | [Link](https://he.aliexpress.com/item/1005007363840397.html) |
 | resestor 47R 0805                  | for the neopixel din                                          | 1 (100 in one order) | $1.11          | $1.11           | [Link](https://he.aliexpress.com/item/32382494431.html) |
-| Solder Paste Sn63 XG-Z40           | for sodering to the pcb                                       | 1                    | $4.88          | $4.88           | [Link](https://he.aliexpress.com/item/32958428538.html) |
+| Solder Paste Sn63 XG-Z40           | for sodering to the 
 |o-ring thickring 2mm 26mm od        |for the conveyor of the head spin                              |1(100 in one order)   |1.99$           |$1.99            |[Link](https://he.aliexpress.com/item/1005006851111300.html) |
 |PCB                              	 |the PCB	             |1 (5 for one order)	                 |$2.00	                |$7.29|
-| **Sum** |                                                               |                      | **$97.96** | **$112.23** | |
+| 
+|6000-2RS Bearing|for low friction shaft rotation|1 (4 for one order)|$3.12|$3.12|https://he.aliexpress.com/item/1005006079201259.html|
+|Clamp shaft lock Ring Collar|to hold the shaft better|1|$2.73|$2.73|https://he.aliexpress.com/item/1005006211797860.html|
+**Sum** |                                                               |                      | **$97.96** | **$112.23** | |
