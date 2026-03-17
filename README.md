@@ -67,4 +67,4 @@ For the Hardware i used:
 |PCB                              	 |the PCB	             |1 (5 for one order)	                 |$2.00	                |$7.29|
 |6000-2RS Bearing|for low friction shaft rotation|1 (4 for one order)|$3.12|$3.12|https://he.aliexpress.com/item/1005006079201259.html|
 |Clamp shaft lock Ring Collar|to hold the shaft better|1|$2.73|$2.73|https://he.aliexpress.com/item/1005006211797860.html|
-**Sum** |                                                               |                      | **$97.96** | **$112.23** | |
+**Sum** |                                                               |                      | **$100.93** | **$120.49** | |
