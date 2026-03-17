@@ -34,6 +34,7 @@ For the Hardware i used:
    - Camera OV2640
    - SK6805 NeoPixel
 <img width="2000" height="1432" alt="image" src="https://github.com/user-attachments/assets/4082ebb7-f81b-4d76-985a-376f5406363f" />
+<img width="1341" height="1145" alt="Screenshot 2026-03-17 at 10-38-05 inf turret turret assembly" src="https://github.com/user-attachments/assets/99a351d3-e626-499a-a301-cde01e98c94b" />
 
 
 ## Project Status & Roadmap
