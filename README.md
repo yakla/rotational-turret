@@ -35,6 +35,8 @@ For the Hardware i used:
    - SK6805 NeoPixel
 <img width="2000" height="1432" alt="image" src="https://github.com/user-attachments/assets/4082ebb7-f81b-4d76-985a-376f5406363f" />
 <img width="1341" height="1145" alt="Screenshot 2026-03-17 at 10-38-05 inf turret turret assembly" src="https://github.com/user-attachments/assets/99a351d3-e626-499a-a301-cde01e98c94b" />
+<img width="1421" height="1230" alt="image" src="https://github.com/user-attachments/assets/c5527134-ff11-4244-b97f-970cea70908f" />
+<img width="1355" height="1231" alt="image" src="https://github.com/user-attachments/assets/9f0abd68-75c3-4229-89a5-14f2000f871f" />
 
 
 ## Project Status & Roadmap
