@@ -1,6 +1,9 @@
 #include "constants.h"
 
 namespace constants {
+    HsvPixel dog_min_hsv(50 / 3, 20, 20);
+    HsvPixel dog_max_hsv(40 / 3, 127, 127);
+
     const CRGBPalette16 purplePalette(
         CRGB::DarkViolet,
         CRGB::DarkViolet,

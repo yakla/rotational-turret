@@ -23,8 +23,6 @@ For a encloseure i use a thin sheet of invisable plastic that rotates with the t
 
 CAD Link : https://cad.onshape.com/documents/5493d3bfb7c584824d124c44/w/b9fe300d7cd71857bff2772f/e/d3c804d532ca15a2a7af37b9?renderMode=0&uiState=69b6b6c78c596208d828381b
 
-(Please copy the link. it can't be opened from github)
-
 For the Hardware i used:
 * XIAO ESP32-S3 - Main Controller & Vision Processing
 * PTK 7308H Servo - Pan/Tilt Movement
@@ -56,19 +54,20 @@ For the Hardware i used:
 ## BOM
 | Item                               | Description                                                   | Quantity             | Unit Price ($) | Total Price ($) | URL |
 |:-----------------------------------|:--------------------------------------------------------------|:---------------------|:---------------|:----------------|:----|
-| Hobbywing Skywalker 12A            | esc for the brushless motor                                   | 1                    | $5.23          | $5.23           | [Link](https://he.aliexpress.com/item/1005006848267224.html) |
-| Emax ECO 1407 Motor 2800KV         | the brushless motor for the base turret rotation              | 1                    | $12.39         | $16.11          | [Link](https://he.aliexpress.com/item/1005006857011061.html) |
-| Ptk 7308h                          | the servo that moves the head of the camera                   | 1                    | $27.00         | $27.16          | [Link](https://he.aliexpress.com/item/1005005891940798.html) |
-| slip ring 6.5mm 8ch a1             | the most important part to move electucity even when rotating | 1                    | $4.04          | $7.04           | [Link](https://he.aliexpress.com/item/1005009463382321.html) |
-| USB-C PD PD/QC Decoy Board         | the usb port                                                  | 1                    | $1.30          | $1.30           | [Link](https://he.aliexpress.com/item/1005005622939899.html) |
-| Mini360 buck convertor             | get the usb voltage down                                      | 1                    | $0.28          | $1.74           | [Link](https://he.aliexpress.com/item/1005008724925620.html) |
-| XIAO ESP32-S3 Sense                | the brain                                                     | 1                    | $13.85         | $17.21          | [Link](https://he.aliexpress.com/item/1005005544155799.html) |
-| Adafruit VL53L4CX                  | the tof sensor                                                | 1                    | $19.57         | $19.57          | [Link](https://he.aliexpress.com/item/1005010327402661.html) |
-| SK6805 2427                        | neopixel for the pcb                                          | 1 (50 in one order)  | $3.73          | $6.30           | [Link](https://he.aliexpress.com/item/1005008979678361.html) |
-| capcacitor 100nf 0805              | just there for the neopixel                                   | 1 (100 in one order) | $1.24          | $1.24           | [Link](https://he.aliexpress.com/item/1005005293453925.html) |
-| capcacitor 10uf 1206               | just there for the neopixel                                   | 1 (20 in one order)  | $1.35          | $1.35           | [Link](https://he.aliexpress.com/item/1005007363840397.html) |
-| resestor 47R 0805                  | for the neopixel din                                          | 1 (100 in one order) | $1.11          | $1.11           | [Link](https://he.aliexpress.com/item/32382494431.html) |
-| Solder Paste Sn63 XG-Z40           | for sodering to the pcb                                       | 1                    | $4.88          | $4.88           | [Link](https://he.aliexpress.com/item/32958428538.html) |
-|o-ring thickring 2mm 26mm od        |for the conveyor of the head spin                              |1(100 in one order)   |1.99$           |$1.99            |[Link](https://he.aliexpress.com/item/1005006851111300.html) |
-|PCB                              	 |the PCB	             |1 (5 for one order)	                 |$2.00	                |$7.29|
-| **Sum** |                                                               |                      | **$97.96** | **$112.23** | |
+| Hobbywing Skywalker 12A            | esc for the brushless motor                                   | 1                    | $5.23          | $5.23           | https://he.aliexpress.com/item/1005006848267224.html |
+| Emax ECO 1407 Motor 2800KV         | the brushless motor for the base turret rotation              | 1                    | $12.39         | $16.11          | https://he.aliexpress.com/item/1005006857011061.html |
+| Ptk 7308h                          | the servo that moves the head of the camera                   | 1                    | $27.00         | $27.16          | https://he.aliexpress.com/item/1005005891940798.html |
+| slip ring 6.5mm 8ch a1             | the most important part to move electucity even when rotating | 1                    | $4.04          | $7.04           | https://he.aliexpress.com/item/1005009463382321.html |
+| USB-C PD PD/QC Decoy Board         | the usb port                                                  | 1                    | $1.30          | $1.30           | https://he.aliexpress.com/item/1005005622939899.html |
+| Mini360 buck convertor             | get the usb voltage down                                      | 1                    | $0.28          | $1.74           |https://he.aliexpress.com/item/1005008724925620.html |
+| XIAO ESP32-S3 Sense                | the brain                                                     | 1                    | $13.85         | $17.21          | https://he.aliexpress.com/item/1005005544155799.html |
+| Adafruit VL53L4CX                  | the tof sensor                                                | 1                    | $19.57         | $19.57          | https://he.aliexpress.com/item/1005010327402661.html |
+| SK6805 2427                        | neopixel for the pcb                                          | 1 (50 in one order)  | $3.73          | $6.30           | https://he.aliexpress.com/item/1005008979678361.html|
+| capcacitor 100nf 0805              | just there for the neopixel                                   | 1 (100 in one order) | $1.24          | $1.24           | https://he.aliexpress.com/item/1005005293453925.html |
+| capcacitor 10uf 1206               | just there for the neopixel                                   | 1 (20 in one order)  | $1.35          | $1.35           | https://he.aliexpress.com/item/1005007363840397.html |
+| resestor 47R 0805                  | for the neopixel din                                          | 1 (100 in one order) | $1.11          | $1.11           | https://he.aliexpress.com/item/32382494431.html |
+|o-ring thickring 2mm 26mm od        |for the conveyor of the head spin                              |1(100 in one order)   |1.99$           |$1.99            |https://he.aliexpress.com/item/1005006851111300.html |
+|PCB                              	 |the PCB	             |1 (5 for one order)	                 |$2.00	                |$7.29|https://www.elecrow.com
+|6000-2RS Bearing 10mm id 26mm od|for low friction shaft rotation|1 (4 for one order)|$3.12|$3.12|https://he.aliexpress.com/item/1005006079201259.html|
+|Clamp shaft lock Ring Collar 10mm|to hold the shaft better|1|$2.73|$2.73|https://he.aliexpress.com/item/1005006211797860.html|
+**Sum** |                                                               |                      | **$100.93** | **$120.49** current price **$105.10** | |
