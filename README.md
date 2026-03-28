@@ -35,6 +35,8 @@ For the Hardware i used:
 <img width="1341" height="1145" alt="Screenshot 2026-03-17 at 10-38-05 inf turret turret assembly" src="https://github.com/user-attachments/assets/99a351d3-e626-499a-a301-cde01e98c94b" />
 <img width="1421" height="1230" alt="image" src="https://github.com/user-attachments/assets/c5527134-ff11-4244-b97f-970cea70908f" />
 <img width="1355" height="1231" alt="image" src="https://github.com/user-attachments/assets/9f0abd68-75c3-4229-89a5-14f2000f871f" />
+<img width="1385" height="766" alt="image" src="https://github.com/user-attachments/assets/fb1631cd-fed1-4731-99ea-94199f9f0f6b" />
+<img width="1201" height="1183" alt="image" src="https://github.com/user-attachments/assets/b3cf8ede-df6f-4c07-8a10-e3ea9b727887" />
 
 
 ## Project Status & Roadmap
